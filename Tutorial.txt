@@ -1,0 +1,68 @@
+********PSEUDO CODER********
+By Anway De, Eduardo Ramirez and Rogelio Becerra
+Tutorial:
+1> 	Click on Start Coding to, yup, start coding!
+2> 	Click on the [+] button on the upper left corner and select the desired block from the list
+3> 	The block will appear on the screen along with input fields (the dashes)
+4> 	Read the text to understand what the block does and what is expected in the input fields
+5> 	Enter appropriate values or text in the input fields
+6> 	Either click on an input field to go to it, or press TAB to go to next field
+7>	Number of characters in every input field is restricted at 20 (Hope it is enough!)
+8>	WARNING: ENTERING MEANINGLESS INPUT WILL RESULT IN SUCCESSFUL CODE GENERATION BUT THE CODE MAY NOT RUN! THIS PROGRAM DOES NOT DEBUG!
+9> 	WARNING: ARROW KEYS DO NOT WORK INSIDE OF INPUT FIELD TO MOVE CURSOR!
+10>	This brings us to arrow keys. Use them to scroll in the window, either vertically or horizontally (when you are unable to see stuff)
+11>	You can also use the mousewheel to scroll up or down (not left or right though!)
+12>	Notice the tiny red crosses at the left of each block? Click on them to delete a block!
+13>	WARNING: DELETING A BLOCK WHICH HAS BLOCKS INDENTED UNDER IT WILL DELETE ALL INDENTED BLOCKS ALONG WITH IT!
+14>	This brings us to indented blocks
+15>	INDENTED BLOCKS:	forBlock, whileBlock, ifBlock, elseIfBlock, elseBlock, function
+		a>	Selecting any of the above blocks will add an indented [+] button
+		b>	Use that [+] button to add indented blocks under the above mentioned blocks
+		c>	You may use as many levels of indentation as you wish!
+16>	On the lower right corner of the screen, there is a textbox where you are supposed to enter the name of the file with which you wish to save your code
+17>	The program adds a .cpp automatically after the file name, so be sure to not add it yourself!
+18>	Now, let's talk about the buttons: There are four of them
+19>	SAVE: Generated a .cpp file with the file name in the textbox corresponding to the blocks currently present on the screen
+20>	VIEW CODE: Opens a new window and lets you view the generated .cpp file (You can edit this too in any text editor of your choice)
+		a>	Closing this window will return you back to the coding window
+21>	DELETE ALL: This button will delete all existing blocks from the screen.
+		a>	WARNING: THERE IS NO UNDO BUTTON YET, SO BE CAREFUL WHEN USING THIS BUTTON!
+22>	COMPILE AND RUN: Compiles and runs the program
+		a>	Opens up a new window and displays any error encountered during compilation.
+		b>	If no error was encountered, then displays the output from the program
+		c>	WARNING: IF YOUR PROGRAM TAKES IN USER INPUT, THEN THIS WILL ONLY COMPILE IT BUT NOT RUN IT
+23> To go back to the main menu, close the coding window. Don't worry, you won't lose your work!
+24>	Close this window to go back to the main menu
+********END OF TUTORIAL********
+Here are some tips and hints for using the software nicely!
+1>	Choose from the following values for the input fields requiring type: 
+		a>	int, double, float - for numbers
+		b>	char - for single characters
+		c>	string - for multiple characters (put quotes (single or double?) around your expression when setting string or char variables)
+		d>	bool - for values that would be either true or false
+2>	Be sure to include the main function in your program! It will never run otherwise!
+3>	Be sure to declare any other functions you wish to use before main!
+		a>	You can do this by just adding an empty function block, adding main, and then coming back to fine tune your function
+4>	Remember to create a variable before setting a variable
+5>	Use printVar for printing variables instead of printText
+6>	You can use createVariable outside main to create global variables
+7>	Basic Operator Help (With Precedence and usual uses):
+		a>	Arithmetic - Used to perform operations between numbers or variables
+			%	(gets remainders)	--> 13 % 5 = 3
+			/	(gets quotient)		--> 13 / 5 = 2
+			*	(gets product)		--> 13 * 5 = 65
+			-	(gets difference)	--> 13 - 5 = 8
+			+	(gets sum)			-->	13 + 5 = 18
+		b> Relational - Used to compare values (usually for setting conditions)
+			> or >=		(greater than) or (greater than or equal to)
+			< or <=		(less than) or (less than or equal to) 
+			==			(equal)
+			!=			(not equal)
+		c> Logical - Used to combine several conditions
+			!			(NOT)
+			&&			(AND)
+			||			(OR)
+8>	Try adding blocks in proper order. Going back to add blocks in the middle is not supported!
+9>	Set array indices by making the variable name look like <array_name>[<index>]
+10>	For Loops are just for repeating steps here. Use while loops to use the counter variables in the loop!
+Code Away!
